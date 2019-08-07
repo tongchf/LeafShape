@@ -13,4 +13,4 @@ where the paramter `p` taking the value of 1 stands for the first step,  `b` for
   ```
   Rscript leafshape.r -p 2 -d outpath
   ```
-  
+  where the paramter `p` taking the value of 2 refers to the second step and `d` for the ouput path. This step will generate two files in the ouput folder, namely `AllSamplesLWA.csv` and `AllSamplesPD360.csv`. The first file contains the leaf length, width, and area for all the samples, while the second includes the 360 polar radii for each leaf.
