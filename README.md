@@ -7,4 +7,4 @@
 ```
   Rscript leafshape.r -p 1 -b bmppath -d outpath
 ```
-where the paramter `p` taking the value of 1 stands for the first step,  `b` for the path of bmp files, and `d` for the ouput path. After finishing the run, two folders, i.e., csv and pdf, will be created in the output folder. In the folder of csv, there are four files for each leaf, including the data of leaf length, width, and area as well as 360 polar radii. In the pdf folder, 
+where the paramter `p` taking the value of 1 stands for the first step,  `b` for the path of bmp files, and `d` for the ouput path. After finishing the run, two folders, i.e., csv and pdf, will be created in the output folder. In the folder of csv, there are four files for each leaf, which contain the data of leaf length, width, and area as well as 360 polar radii. In the pdf folder, each leaf has a pdf file that records the image processes. With this pdf file, users can check if the data of the leaf is successfully extracted. 
